@@ -25,7 +25,7 @@ img {
 }
 
 .dropcap {
-	font-size: 72px;
+	font-size: 60px;
 	color: #FF849E;
 	float: left;
 	margin: 10px;
@@ -42,4 +42,9 @@ img {
 /* Helper Classes */
 .showgrid {
 	background: url("../img/12_col.gif") !important;
+}
+
+#bottom li {
+	display: inline;
+	padding-right: 10px;
 }
