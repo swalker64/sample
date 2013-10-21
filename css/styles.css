@@ -1,0 +1,45 @@
+/* 
+Color Palette
+1st #CBD5BD, light  green
+2nd #3C2E2D, darker brown
+3rd #FF849E, accent color pink
+*/
+
+body {
+	background: url("../img/bg.png");
+	font-family: 'Allerta', sans-serif;
+}
+
+h1, h3 {
+	color: #CBD5BD;
+	text-transform: uppercase;
+	border-bottom: 10px solid black;
+}
+
+h3 {
+	padding: 0 0 10px 0;
+}
+
+img {
+   box-shadow: 0 0 20px #666;
+}
+
+.dropcap {
+	font-size: 72px;
+	color: #FF849E;
+	float: left;
+	margin: 10px;
+}
+
+
+.container_12 {
+	background: rgba(255,255,255,.45);
+}
+
+
+
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/12_col.gif") !important;
+}
